@@ -1,7 +1,7 @@
 ---------- Dynamik Engine Support Library: Dear ImGui ----------
 -- This library is forked and cloned from https://github.com/ocornut/imgui --
 
-project "imgui"
+project "ImGui"
 	kind "StaticLib"
 	language "C++"
 	systemversion "latest"
@@ -20,7 +20,7 @@ project "imgui"
 
 	includedirs {
 		"$(SolutionDir)Dependencies/Libraries/Local",
-		"$(SolutionDir)Engine/ThirdParty/imgui",
+		"$(SolutionDir)Engine/ThirdParty/ImGui",
 	}
 
 	filter "system:windows"
